@@ -4,6 +4,7 @@ int mult3 = 1;
 int sum4=0;
 int mult4 = 1;
 int sum5= 0;
+int result = 0;
 
 for (int i = 0; i < arr.Length; i++)
 {
@@ -30,8 +31,19 @@ for (int i = 0; i < arr.Length; i++)
     }
     
 }
-Console.WriteLine(sum3);
-Console.WriteLine(mult3);
-Console.WriteLine(sum4);
-Console.WriteLine(mult4);
+
+result = sum3 + mult4;
+
+result = (result * 10) + 7;
+
+result += sum5;
+Console.WriteLine(result);
+
+
+
+//Console.WriteLine(sum3);
+//Console.WriteLine(mult3);
+//Console.WriteLine(sum4);
+//Console.WriteLine(mult4);
 Console.WriteLine(sum5);
+
