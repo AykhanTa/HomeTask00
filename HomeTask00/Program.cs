@@ -4,6 +4,7 @@ int mult3 = 1;
 int sum4=0;
 int mult4 = 1;
 int sum5= 0;
+int sum6 = 0;
 int result = 0;
 
 for (int i = 0; i < arr.Length; i++)
@@ -29,6 +30,9 @@ for (int i = 0; i < arr.Length; i++)
     {
         sum5 += a;
     }
+    else if(count==6){
+        sum6 += a;
+    }
     
 }
 
@@ -37,6 +41,15 @@ result = sum3 + mult4;
 result = (result * 10) + 7;
 
 result += sum5;
+
+result = result - ((mult3 * 10) + 1);
+
+result=result+sum6;
+
+result=result-(sum3+sum4);
+
+result=(result*18)/ 100;
+
 Console.WriteLine(result);
 
 
@@ -45,5 +58,5 @@ Console.WriteLine(result);
 //Console.WriteLine(mult3);
 //Console.WriteLine(sum4);
 //Console.WriteLine(mult4);
-Console.WriteLine(sum5);
+//Console.WriteLine(sum5);
 
