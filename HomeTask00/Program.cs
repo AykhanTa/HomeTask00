@@ -50,6 +50,12 @@ result=result-(sum3+sum4);
 
 result=(result*18)/ 100;
 
+result = (result * 3) / 100;
+
+result = (result * 1) / 100;
+
+result += sum5;
+
 Console.WriteLine(result);
 
 
